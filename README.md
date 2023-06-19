@@ -2,6 +2,8 @@
 
 A simple script to count the number of records in a given list of CSV files. This is useful for verification after database loads as it takes into account newlines inside quoted strings, something a command like `wc -l` does not do.
 
+## Quickstart
+
 Example:
 
 ```
@@ -49,3 +51,7 @@ g_wipo_technology.csv                             : 11,076,102
 
 Done.
 ```
+
+## Contributions
+
+Contributions are welcome to add features like delimiter selection and alternative output formats. Please open an issue or pull request for feature requests.
